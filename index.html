@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Java Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- STUDENT PAGE -->
+    <div id="studentPage">
+
+        <h1>Java Quiz</h1>
+
+        <h2>Enter Username</h2>
+
+        <input
+            type="text"
+            id="username"
+            placeholder="Enter your username"
+        >
+
+    
+
+        <button onclick="startQuiz()">
+            Start Quiz
+        </button>
+    </div>
+
+
+    <!-- QUIZ PAGE -->
+    <div id="quizPage" class="hidden">
+
+        <h1>Java Quiz</h1>
+
+        <p id="questionNumber"></p>
+
+        <h2 id="question"></h2>
+
+        <div id="answers"></div>
+
+        <button onclick="nextQuestion()" id="nextButton">
+            Next
+        </button>
+
+    </div>
+
+
+    <!-- RESULT PAGE -->
+    <div id="resultPage" class="hidden">
+
+        <h1>Quiz Result</h1>
+
+        <h2 id="score"></h2>
+
+        <h2 id="percentage"></h2>
+
+        <h3 id="remark"></h3>
+
+        <button onclick="location.reload()">
+            Try Again
+        </button>
+
+    </div>
+
+</div>
+
+<footer>
+    <h3>Contact Me</h3>
+
+    <p>Email: princeo.18.forena@email.com</p>
+    <p>Phone: +91 82649 08916</p>
+
+    <div class="social-links">
+      <a href="https://www.instagram.com/finest_forena?stkn=ZGx6N3J1MDY0Y2xv&utm_source=qr" target="_blank">
+    <i class="fa-brands fa-instagram"></i>
+</a>
+
+     <a href="https://www.facebook.com/share/19RKpCjbBR/?mibextid=wwXIfr" target="_blank">
+    <i class="fa-brands fa-facebook"></i>
+</a>
+       
+
+        <a href="wa.me/233534193374" target="_blank">
+    <i class="fa-brands fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <p class="copyright">
+        © 2026 Prince Omari. All Rights Reserved.
+    </p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

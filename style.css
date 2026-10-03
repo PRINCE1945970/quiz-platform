@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    text-align: center;
+}
+
+.container {
+    width: 600px;
+    margin: 50px auto;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px gray;
+}
+
+input {
+    width: 90%;
+    padding: 12px;
+    margin: 10px;
+}
+
+button {
+    width: 95%;
+    padding: 12px;
+    margin: 10px;
+    background: #667eea;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #9567c3;
+}
+
+.hidden {
+    display: none;
+}
+
+
+/* Answer squares */
+
+#answers {
+    display: grid ;
+    grid-template-columns: 1fr 1fr;
+     gap: 10px;
+    margin: 25px 0;
+}
+
+.answer {
+    padding: 25px;
+    border: 2px solid #667eea;
+    border-radius: 8px;
+    cursor: pointer;
+    background: white;
+}
+
+.answer:hover {
+    background: #e7f1ff;
+}
+
+
+/* Selected square */
+
+.answer.selected {
+    background: #667eea;
+    color: white;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    color: white;
+    border-radius: 8px;
+}
+
+footer h3 {
+    margin-bottom: 10px;
+}
+
+.social-links {
+    margin: 15px 0;
+}
+
+.social-links a {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    text-decoration: none;
+    margin: 0 12px;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+    color: #ffd700;
+    transition: scale(1.2);
+}
+
+.copyright {
+    font-size: 13px;
+    margin-top: 15px;
+}
